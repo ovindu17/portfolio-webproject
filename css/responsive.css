@@ -1,0 +1,85 @@
+@media (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+    .portfolio-section {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    .project-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .google-nav {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    .nav-logo {
+        margin-bottom: 16px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-title {
+        font-size: 24px;
+    }
+    .project-description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 32px 16px;
+    }
+
+    .profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .nav-links {
+        gap: 8px;
+    }
+
+    .nav-links a {
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+}

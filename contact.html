@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <nav class="google-nav">
+        <div class="nav-logo">
+            <a href="index.html">My Portfolio</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+    
+    <header class="contact-header">
+        <div class="profile">
+            <img src="assets/profile.jpeg" alt="Profile Picture">
+            <h1>Get in Touch</h1>
+            <p>Have a question or want to work together? Send me a message!</p>
+        </div>
+    </header>
+    
+    <main>
+        <section id="contact" class="container">
+            <div class="contact-container">
+                <div class="contact-form card">
+                    <h2><span class="material-icons">email</span> Send a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject of your message">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="material-icons">send</span> Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info card">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="contact-item">
+                        <span class="material-icons">email</span>
+                        <a href="mailto:email@example.com">ovindupathirana554@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="material-icons">phone</span>
+                        <a href="tel:+11234567890">+94 076 0148697</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="material-icons">location_on</span>
+                        <p>Kadawatha, Srilanka</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h3>Connect with me</h3>
+                        <div class="social-icons">
+                            <a href="https://github.com/ovindu17" target="_blank" class="social-icon">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/github.svg" alt="GitHub">
+                            </a>
+                            <a href="https://www.linkedin.com/in/ovindu-pathirana-91451622b" target="_blank" class="social-icon">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg" alt="LinkedIn">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Download my <a href="assets/resume.pdf">resume</a></p>
+        <p>Connect with me: 
+            <a href="https://github.com/ovindu17" target="_blank">GitHub</a> | 
+            <a href="https://www.linkedin.com/in/ovindu-pathirana-91451622b" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
