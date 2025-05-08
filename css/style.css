@@ -141,14 +141,26 @@ h2 {
 .project {
     background-color: white;
     border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3);
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.project-content {
+    padding: 24px;
 }
 
 .project h3 {
     font-family: 'Google Sans', sans-serif;
     color: var(--google-dark);
+    margin-top: 0;
 }
 
 .project p {
@@ -481,4 +493,32 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.project-hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.project-hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+    pointer-events: none;
+}
+
+.project-hero .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-page {
+    background-color: #FFFFFF;
 }
